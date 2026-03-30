@@ -1,14 +1,17 @@
 {
-  "name": "advanced-discord-drop-bot",
+  "name": "discord-drop-giveaway",
   "version": "1.0.0",
-  "description": "A professional math-based giveaway drop bot for Discord.",
-  "main": "src/index.js",
+  "description": "Discord drop giveaway bot",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
+    "discord.js": "14.14.1",
+    "dotenv": "16.3.1",
+    "winston": "3.11.0"
   }
 }
